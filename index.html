@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="create-section">
+        <div class="create-header">
+          <h1>Create Section</h1>
+        </div>
+        <div class="create-content">
+          <form action="">
+            <label for="name" class="label-names">Name:</label><br />
+            <input type="text" placeholder="Enter the name" id="name" /><br />
+            <label for="surname" class="label-names">Surname:</label><br />
+            <input
+              type="text"
+              placeholder="Enter the surname"
+              id="surname"
+            /><br />
+            <label for="email" class="label-names">Email:</label><br />
+            <input type="email" placeholder="Enter the email" id="email" />
+          </form>
+          <button class="create-button">Create</button>
+        </div>
+      </div>
+
+      <div class="read-section">
+        <div class="read-header">
+          <h1>Read Section</h1>
+        </div>
+        <div class="read-content">
+          <p>Name: <span class="nameText"> </span></p>
+          <p>Surname: <span class="surnameText"> </span></p>
+          <p>Email: <span class="emailText"> </span></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
